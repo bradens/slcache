@@ -6,7 +6,7 @@ const MINUTE = SECOND*60
 const HOUR = MINUTE*60
 const DAY = HOUR*24
 
-const unwrap = (valueOrFunction) => {
+const unwrap = valueOrFunction => {
   if (typeof valueOrFunction === 'function') {
     return valueOrFunction()
   } else {
