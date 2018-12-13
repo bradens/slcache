@@ -1,0 +1,30 @@
+{
+  "name": "slcache",
+  "version": "1.0.0",
+  "description": "Simple LocalStorage Cache, with an API inspired by Rails.cache",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:bradens/slcache"
+  },
+  "keywords": [
+    "cache",
+    "localstorage",
+    "web",
+    "browser"
+  ],
+  "author": "Braden Simpson (@bradens)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "jest": "^23.6.0",
+    "mock-local-storage": "^1.1.7",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {}
+}
