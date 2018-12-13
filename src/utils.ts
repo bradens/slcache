@@ -1,3 +1,7 @@
+/**
+ * Check if localStorage is available in the current environment
+ * From MDN (https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+ */
 export const storageAvailable = () => {
   try {
     var storage = window.localStorage,

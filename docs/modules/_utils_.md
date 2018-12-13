@@ -18,7 +18,9 @@
 
 ▸ **storageAvailable**(): `boolean`
 
-*Defined in [utils.ts:1](https://github.com/bradens/slcache/blob/3d29b67/src/utils.ts#L1)*
+*Defined in [utils.ts:5](https://github.com/bradens/slcache/blob/fd925a6/src/utils.ts#L5)*
+
+Check if localStorage is available in the current environment From MDN ([https://developer.mozilla.org/en-US/docs/Web/API/Web\_Storage\_API/Using\_the\_Web\_Storage\_API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API))
 
 **Returns:** `boolean`
 

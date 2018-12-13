@@ -33,7 +33,7 @@ let future = new Date(new Date().getTime() + 1000 * 60 * 60 * 24) // 1 Day from 
 fetch('cache_key', 'something', { expiry: new Date(future)})
 ```
 
-[Full API](./docs/index.html)
+[Full API](./docs/modules/_api_.md)
 
 ## Index
 

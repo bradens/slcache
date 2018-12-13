@@ -5,3 +5,4 @@ if (!storageAvailable()) {
 }
 
 export { fetch, clear, set, get, remove } from './api'
+export * from './utils'
