@@ -1,0 +1,2 @@
+# slcache
+Simple LocalStorage Cache
