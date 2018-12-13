@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "pre-publish": "tsc && typedoc --out ./docs"
+    "pre-publish": "tsc && typedoc --theme markdown --out ./docs"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "mock-local-storage": "^1.1.7",
     "ts-jest": "^23.10.5",
     "typedoc": "^0.13.0",
+    "typedoc-plugin-markdown": "^1.1.19",
     "typescript": "^3.2.2"
   },
   "dependencies": {}
