@@ -1,6 +1,6 @@
 {
   "name": "slcache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple LocalStorage Cache, with an API inspired by Rails.cache",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -22,7 +22,7 @@
 
 ▸ **clear**(): `void`
 
-*Defined in [api.ts:90](https://github.com/bradens/slcache/blob/fd925a6/src/api.ts#L90)*
+*Defined in [api.ts:94](https://github.com/bradens/slcache/blob/6d01dd3/src/api.ts#L94)*
 
 Clear everything.
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **fetch**(key: *`string`*, value?: *`any`*, opts?: *`object`*): `any`
 
-*Defined in [api.ts:65](https://github.com/bradens/slcache/blob/fd925a6/src/api.ts#L65)*
+*Defined in [api.ts:65](https://github.com/bradens/slcache/blob/6d01dd3/src/api.ts#L65)*
 
 The main function of the module. Reads the value in the cache, and if it can't be found, stores the second param
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **get**(key: *`string`*): `any`
 
-*Defined in [api.ts:44](https://github.com/bradens/slcache/blob/fd925a6/src/api.ts#L44)*
+*Defined in [api.ts:44](https://github.com/bradens/slcache/blob/6d01dd3/src/api.ts#L44)*
 
 Get an object from the cache, ignoring expiry, mostly to be used internally
 
@@ -75,7 +75,7 @@ ___
 
 ▸ **remove**(key: *`string`*): `boolean`
 
-*Defined in [api.ts:82](https://github.com/bradens/slcache/blob/fd925a6/src/api.ts#L82)*
+*Defined in [api.ts:86](https://github.com/bradens/slcache/blob/6d01dd3/src/api.ts#L86)*
 
 Remove an item from the cache
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **set**(key: *`string`*, value: *`any`*, opts?: *`object`*): `string`
 
-*Defined in [api.ts:53](https://github.com/bradens/slcache/blob/fd925a6/src/api.ts#L53)*
+*Defined in [api.ts:53](https://github.com/bradens/slcache/blob/6d01dd3/src/api.ts#L53)*
 
 Store a value in the cache
 

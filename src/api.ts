@@ -70,7 +70,11 @@ export const fetch = (key: string, value = null, opts = {}) => {
     return fetched.value
   } else {
     let unwrappedValue = unwrap(value)
-    set(key, unwrappedValue, opts)
+
+    if (unwrappedValue) {
+      set(key, unwrappedValue, opts)
+    }
+
     return unwrappedValue
   } 
 }
