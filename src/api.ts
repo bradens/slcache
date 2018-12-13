@@ -73,6 +73,8 @@ export const fetch = (key: string, value = null, opts = {}) => {
 
     if (unwrappedValue) {
       set(key, unwrappedValue, opts)
+    } else {
+      remove(key)
     }
 
     return unwrappedValue
