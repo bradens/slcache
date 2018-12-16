@@ -7,7 +7,6 @@
 ### Functions
 
 * [clear](_api_.md#clear)
-* [fetch](_api_.md#fetch)
 * [get](_api_.md#get)
 * [remove](_api_.md#remove)
 * [set](_api_.md#set)
@@ -22,20 +21,20 @@
 
 ▸ **clear**(): `void`
 
-*Defined in [api.ts:96](https://github.com/bradens/slcache/blob/b0e04e8/src/api.ts#L96)*
+*Defined in [api.ts:97](https://github.com/bradens/slcache/blob/54b25a5/src/api.ts#L97)*
 
 Clear everything.
 
 **Returns:** `void`
 
 ___
-<a id="fetch"></a>
+<a id="get"></a>
 
-### `<Const>` fetch
+### `<Const>` get
 
-▸ **fetch**(key: *`string`*, value?: *`any`*, opts?: *`object`*): `any`
+▸ **get**(key: *`string`*, value?: *`any`*, opts?: *`object`*): `any`
 
-*Defined in [api.ts:65](https://github.com/bradens/slcache/blob/b0e04e8/src/api.ts#L65)*
+*Defined in [api.ts:66](https://github.com/bradens/slcache/blob/54b25a5/src/api.ts#L66)*
 
 The main function of the module. Reads the value in the cache, and if it can't be found, stores the second param
 
@@ -50,32 +49,13 @@ The main function of the module. Reads the value in the cache, and if it can't b
 **Returns:** `any`
 
 ___
-<a id="get"></a>
-
-### `<Const>` get
-
-▸ **get**(key: *`string`*): `any`
-
-*Defined in [api.ts:44](https://github.com/bradens/slcache/blob/b0e04e8/src/api.ts#L44)*
-
-Get an object from the cache, ignoring expiry, mostly to be used internally
-
-**Parameters:**
-
-| Name | Type | Description |
-| ------ | ------ | ------ |
-| key | `string` |  cache key |
-
-**Returns:** `any`
-
-___
 <a id="remove"></a>
 
 ### `<Const>` remove
 
 ▸ **remove**(key: *`string`*): `boolean`
 
-*Defined in [api.ts:88](https://github.com/bradens/slcache/blob/b0e04e8/src/api.ts#L88)*
+*Defined in [api.ts:89](https://github.com/bradens/slcache/blob/54b25a5/src/api.ts#L89)*
 
 Remove an item from the cache
 
@@ -94,7 +74,7 @@ ___
 
 ▸ **set**(key: *`string`*, value: *`any`*, opts?: *`object`*): `string`
 
-*Defined in [api.ts:53](https://github.com/bradens/slcache/blob/b0e04e8/src/api.ts#L53)*
+*Defined in [api.ts:54](https://github.com/bradens/slcache/blob/54b25a5/src/api.ts#L54)*
 
 Store a value in the cache
 

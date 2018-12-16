@@ -39,9 +39,10 @@ const serialize = (object: object) => JSON.stringify(object)
 
 /**
  * Get an object from the cache, ignoring expiry, mostly to be used internally
+ * @hidden
  * @param key cache key
  */
-export const get = (key: string) => storageAvailable() ? JSON.parse(localStorage.getItem(key)) : null
+export const _get = (key: string) => storageAvailable() ? JSON.parse(localStorage.getItem(key)) : null
 
 
 /**
@@ -62,8 +63,8 @@ export const set = (key: string, value, opts = {}) => {
  * @param value value to be stored, if there is a cache miss
  * @param opts options, currently just a custom expiry is supported (UNIX timestamp)
  */
-export const fetch = (key: string, value = null, opts = {}) => {
-  let fetched = get(key)
+export const get = (key: string, value = null, opts = {}) => {
+  let fetched = _get(key)
 
   if (fetched && fetched.expiry && fetched.expiry &&
       new Date(fetched.expiry).getTime() > new Date().getTime()) {

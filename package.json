@@ -1,11 +1,12 @@
 {
   "name": "slcache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple LocalStorage Cache, with an API inspired by Rails.cache",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
+    "watch": "tsc --watch",
     "pre-publish": "tsc && typedoc --theme markdown --out ./docs"
   },
   "repository": {
